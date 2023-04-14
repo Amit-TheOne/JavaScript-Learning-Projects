@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(image/work-from-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    height: 100vh;
+} 
+
+.container {
+    border: 3px solid black;
+    border-radius: 10px;
+    background: rgb(99, 174, 221);
+    max-width: 60%;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+button {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    
+}
+
+#streak-el {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#increment-btn {
+    background: rgb(150, 101, 2);
+    margin-right: 20px;
+}
+
+#save-btn {
+    background: rgb(0, 87, 100);
+}
