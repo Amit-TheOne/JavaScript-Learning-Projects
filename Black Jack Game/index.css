@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(image/black-jack-bg.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    height: 100vh;
+}
+
+h1 {
+    color:rgb(218, 186, 4);
+}
+
+p {
+    font-size: 20px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    border: none;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#startGame {
+    background-color: rgb(164, 119, 4);
+    color: white;
+    margin-right: 5px;
+    
+}
+
+#drawCard {
+    background-color: rgb(159, 80, 6);
+    color: white;
+}
